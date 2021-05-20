@@ -1,18 +1,18 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
-  Nav,
-  Navbar,
-  Button,
-  NavDropdown,
-  Form,
-  FormControl,
-  Card,
-  Row,
-  Jumbotron,
+  // Nav,
+  // Navbar,
+  // Button,
+  // NavDropdown,
+  // Form,
+  // FormControl,
+  // Card,
+  // Row,
+  // Jumbotron,
   Carousel,
-  Container,
-  Col
+  // Container,
+  // Col
 } from "react-bootstrap";
 
 class Main extends Component {
