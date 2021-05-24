@@ -4,7 +4,7 @@ import "./SocialIcons.css";
 
 const SocialIcons = () => {
   return (
-    <div className="col-xl-1 SocialIcons d-flex flex-xl-column bg-warning justify-content-center align-items-center">
+    <div className="SocialIcons d-flex flex-lg-column bg-warning justify-content-center">
       <SocialIcon className="m-2"  url="https://github.com/Mshahas786" />
       <SocialIcon className="m-2" url="https://www.linkedin.com/in/muhammed-shahas" />
       <SocialIcon className="m-2" network="twitter" />
