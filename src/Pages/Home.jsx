@@ -9,17 +9,10 @@ import SocialIcons from "../Components/SocialIcons/SocialIcons";
 
 const Home = () => {
   return (
-    <div
-      className="vw-100 vh-100 d-flex align-items-center position-fixed"
-      style={{ backgroundColor: "black" }}
-      // style={{ backgroundImage: `url(${img})` }}
-    >
-      
+    
 
-      {/* <h1 className="text-white">Muhammed Shahas</h1> */}
-
-      <div className="container shadow-lg ">
-        <div className="row ">
+      <div className="container shadow-lg h-75">
+        <div className="row h-100">
           <div className="col-4 col-lg-3 p-0  bg-success ">
             <img src={MuhammedShahas} alt="Muhammed shahas" />
           </div>
@@ -36,9 +29,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-
-  
-    </div>
   );
 };
 

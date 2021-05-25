@@ -5,7 +5,8 @@ import Home from './Pages/Home';
 import Works from "./Pages/Works";
 
 function App() {
-  return <div className="App"> 
+  return <div className=" App vw-100 vh-100 d-flex align-items-center position-fixed"
+      style={{ backgroundColor: "black" }}> 
     <Router>
     <Route path='/' exact component={Home} />
     <Route path='/Works' component={Works} />
