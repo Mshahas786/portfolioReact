@@ -1,37 +1,43 @@
 import React from "react";
+import  { Link } from "react-router-dom";
 import "./Pages.css";
 
-import Footer from "../Components/Footer/Footer";
-import img from "../Images/05.jpg";
+// import img from "../Images/05.jpg";
 import MuhammedShahas from "../Images/MuhammedShahascopy.png";
 import SocialIcons from "../Components/SocialIcons/SocialIcons";
+// import Works from "./Works";
 
 const Home = () => {
   return (
-    <div className="Home bg-dark bg-gradient" 
-    // style={{ backgroundImage: `url(${img})` }}
+    <div
+      className="vw-100 vh-100 d-flex align-items-center"
+      style={{ backgroundColor: "black" }}
+      // style={{ backgroundImage: `url(${img})` }}
     >
+      
+
       {/* <h1 className="text-white">Muhammed Shahas</h1> */}
 
-      <div class="container bg-primary">
-
-        <div class="row">
-
-          <div class="col-5 col-lg-4 p-0 bg-dark">
+      <div className="container shadow-lg ">
+        <div className="row ">
+          <div className="col-4 col-lg-3 p-0  bg-success ">
             <img src={MuhammedShahas} alt="Muhammed shahas" />
           </div>
 
-          <div class="col-7 col-lg-7 p-0 text-end">
-          <p className="text-white fst-italic ">Im a frontend developer</p>
+          <div className="col-8 col-lg-8 d-flex align-items-center bg-danger overflow-auto p-0 pl-2">
+            <h1 className=" text-white  mt-5 text-uppercase ">
+              I'm a<br></br> frontend <br></br> developer
+            </h1>
+            <Link to="/Works">Work</Link>
           </div>
 
-          <div class="col-12 col-lg-1 d-lg-flex justify-content-end p-0">
-            <SocialIcons/>
+          <div className="col-12 col-lg-1 d-lg-flex justify-content-end bg-warning ">
+            <SocialIcons />
           </div>
-
         </div>
-
       </div>
+
+  
     </div>
   );
 };

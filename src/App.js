@@ -1,10 +1,15 @@
 import React from "react"
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
 import Home from './Pages/Home';
+import Works from "./Pages/Works";
 
 function App() {
   return <div className="App"> 
-    <Home/>
+    <Router>
+    <Route path='/' exact component={Home} />
+    <Route path='/Works' component={Works} />
+    </Router>
     </div>
 }
 
