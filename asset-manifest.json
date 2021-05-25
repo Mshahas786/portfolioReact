@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolioReact/static/css/main.57569d98.chunk.css",
-    "main.js": "/portfolioReact/static/js/main.b5f669a5.chunk.js",
-    "main.js.map": "/portfolioReact/static/js/main.b5f669a5.chunk.js.map",
-    "runtime-main.js": "/portfolioReact/static/js/runtime-main.96708983.js",
-    "runtime-main.js.map": "/portfolioReact/static/js/runtime-main.96708983.js.map",
-    "static/js/2.b2228a02.chunk.js": "/portfolioReact/static/js/2.b2228a02.chunk.js",
-    "static/js/2.b2228a02.chunk.js.map": "/portfolioReact/static/js/2.b2228a02.chunk.js.map",
-    "static/js/3.af9e3027.chunk.js": "/portfolioReact/static/js/3.af9e3027.chunk.js",
-    "static/js/3.af9e3027.chunk.js.map": "/portfolioReact/static/js/3.af9e3027.chunk.js.map",
+    "main.css": "/portfolioReact/static/css/main.e55e84ec.chunk.css",
+    "main.js": "/portfolioReact/static/js/main.089a58f4.chunk.js",
+    "main.js.map": "/portfolioReact/static/js/main.089a58f4.chunk.js.map",
+    "runtime-main.js": "/portfolioReact/static/js/runtime-main.7025e57d.js",
+    "runtime-main.js.map": "/portfolioReact/static/js/runtime-main.7025e57d.js.map",
+    "static/js/2.f20e8e6d.chunk.js": "/portfolioReact/static/js/2.f20e8e6d.chunk.js",
+    "static/js/2.f20e8e6d.chunk.js.map": "/portfolioReact/static/js/2.f20e8e6d.chunk.js.map",
+    "static/js/3.43e01d40.chunk.js": "/portfolioReact/static/js/3.43e01d40.chunk.js",
+    "static/js/3.43e01d40.chunk.js.map": "/portfolioReact/static/js/3.43e01d40.chunk.js.map",
     "index.html": "/portfolioReact/index.html",
-    "static/css/main.57569d98.chunk.css.map": "/portfolioReact/static/css/main.57569d98.chunk.css.map",
-    "static/js/2.b2228a02.chunk.js.LICENSE.txt": "/portfolioReact/static/js/2.b2228a02.chunk.js.LICENSE.txt",
+    "static/css/main.e55e84ec.chunk.css.map": "/portfolioReact/static/css/main.e55e84ec.chunk.css.map",
+    "static/js/2.f20e8e6d.chunk.js.LICENSE.txt": "/portfolioReact/static/js/2.f20e8e6d.chunk.js.LICENSE.txt",
     "static/media/MuhammedShahascopy.c8bbdb2d.png": "/portfolioReact/static/media/MuhammedShahascopy.c8bbdb2d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.96708983.js",
-    "static/js/2.b2228a02.chunk.js",
-    "static/css/main.57569d98.chunk.css",
-    "static/js/main.b5f669a5.chunk.js"
+    "static/js/runtime-main.7025e57d.js",
+    "static/js/2.f20e8e6d.chunk.js",
+    "static/css/main.e55e84ec.chunk.css",
+    "static/js/main.089a58f4.chunk.js"
   ]
 }
