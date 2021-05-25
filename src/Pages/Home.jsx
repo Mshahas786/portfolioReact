@@ -10,7 +10,7 @@ import SocialIcons from "../Components/SocialIcons/SocialIcons";
 const Home = () => {
   return (
     <div
-      className="vw-100 vh-100 d-flex align-items-center"
+      className="vw-100 vh-100 d-flex align-items-center position-fixed"
       style={{ backgroundColor: "black" }}
       // style={{ backgroundImage: `url(${img})` }}
     >
@@ -28,7 +28,7 @@ const Home = () => {
             <h1 className=" text-white  mt-5 text-uppercase ">
               I'm a<br></br> frontend <br></br> developer
             </h1>
-            <Link to="/Works">Works</Link>
+            <Link to="/Works">Work</Link>
           </div>
 
           <div className="col-12 col-lg-1 d-lg-flex justify-content-end bg-warning ">
