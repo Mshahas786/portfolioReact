@@ -3,6 +3,7 @@ import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
 
 const SocialIcons = () => {
+  // const [github, setGithub] = useState(false);
   const [show, setShow] = useState(false);
   const [twitter, setTwitter] = useState(false);
 
@@ -11,29 +12,32 @@ const SocialIcons = () => {
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ delay: 0.3 }}
-        whileHover={{ scale: 1.4 }}
+        transition={{ delay: 1 }}
       >
-        <SocialIcon
-          className="m-2"
-          bgColor="#ffc107"
-          fgColor="#000"
-          url="https://github.com/Mshahas786"
-        />
+        <motion.div whileHover={{ scale: 1.4 }}>
+          <SocialIcon
+            // onMouseEnter={() => setGithub(!github)}
+            // onMouseLeave={() => setGithub(!github)}
+            className="m-2"
+            bgColor="#0000"
+            fgColor="#ffff"
+            url="https://github.com/Mshahas786"
+          />
+        </motion.div>
       </motion.div>
 
       <motion.div
         initial={{ opacity: 0, y: -90 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.5 }}
+        transition={{ delay: 2 }}
       >
         <motion.div whileHover={{ scale: 1.4 }}>
           <SocialIcon
             onMouseEnter={() => setShow(!show)}
             onMouseLeave={() => setShow(!show)}
             className="m-2"
-            bgColor="#ffc107"
-            fgColor={show ? "#2164f4" : "#000"}
+            bgColor="#0000"
+            fgColor={show ? "#2164f4" : "#ffff"}
             url="https://www.linkedin.com/in/muhammed-shahas"
           />
         </motion.div>
@@ -42,15 +46,15 @@ const SocialIcons = () => {
       <motion.div
         initial={{ opacity: 0, y: -110 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.7 }}
+        transition={{ delay: 1.5 }}
       >
         <motion.div whileHover={{ scale: 1.4 }}>
           <SocialIcon
             onMouseEnter={() => setTwitter(!twitter)}
             onMouseLeave={() => setTwitter(!twitter)}
             className="m-2"
-            bgColor="#ffc107"
-            fgColor={twitter ? "#1DA1F2" : "#000"}
+            bgColor="#0000"
+            fgColor={twitter ? "#1DA1F2" : "#ffff"}
             url="http://twitter.com/muhammedshah786"
           />
         </motion.div>
