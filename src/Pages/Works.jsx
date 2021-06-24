@@ -36,11 +36,15 @@ const Works = () => {
                         return (
 
                             <div class="col mh-25">
+                           
                                 <div class="card">
+                                <a href={website}>
                                     <img src={img}class="card-img-top" alt={id}></img>
                                     {/* <div class="card-footer">
                                         <small class="text-muted">Last updated 3 mins ago</small>
+                                        
                                     </div> */}
+                                    </a>
                                 </div>
                             </div>
                         )
