@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolioReact/static/css/main.2e3a4904.chunk.css",
-    "main.js": "/portfolioReact/static/js/main.c271acc1.chunk.js",
-    "main.js.map": "/portfolioReact/static/js/main.c271acc1.chunk.js.map",
-    "runtime-main.js": "/portfolioReact/static/js/runtime-main.43a917d3.js",
-    "runtime-main.js.map": "/portfolioReact/static/js/runtime-main.43a917d3.js.map",
-    "static/js/2.00d56c90.chunk.js": "/portfolioReact/static/js/2.00d56c90.chunk.js",
-    "static/js/2.00d56c90.chunk.js.map": "/portfolioReact/static/js/2.00d56c90.chunk.js.map",
-    "static/js/3.44aae165.chunk.js": "/portfolioReact/static/js/3.44aae165.chunk.js",
-    "static/js/3.44aae165.chunk.js.map": "/portfolioReact/static/js/3.44aae165.chunk.js.map",
-    "index.html": "/portfolioReact/index.html",
-    "static/css/main.2e3a4904.chunk.css.map": "/portfolioReact/static/css/main.2e3a4904.chunk.css.map",
-    "static/js/2.00d56c90.chunk.js.LICENSE.txt": "/portfolioReact/static/js/2.00d56c90.chunk.js.LICENSE.txt",
-    "static/media/MuhammedShahascopy.c8bbdb2d.png": "/portfolioReact/static/media/MuhammedShahascopy.c8bbdb2d.png"
+    "main.css": "/static/css/main.2e3a4904.chunk.css",
+    "main.js": "/static/js/main.c271acc1.chunk.js",
+    "main.js.map": "/static/js/main.c271acc1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f0ef7682.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f0ef7682.js.map",
+    "static/js/2.00d56c90.chunk.js": "/static/js/2.00d56c90.chunk.js",
+    "static/js/2.00d56c90.chunk.js.map": "/static/js/2.00d56c90.chunk.js.map",
+    "static/js/3.44aae165.chunk.js": "/static/js/3.44aae165.chunk.js",
+    "static/js/3.44aae165.chunk.js.map": "/static/js/3.44aae165.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.2e3a4904.chunk.css.map": "/static/css/main.2e3a4904.chunk.css.map",
+    "static/js/2.00d56c90.chunk.js.LICENSE.txt": "/static/js/2.00d56c90.chunk.js.LICENSE.txt",
+    "static/media/MuhammedShahascopy.c8bbdb2d.png": "/static/media/MuhammedShahascopy.c8bbdb2d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.43a917d3.js",
+    "static/js/runtime-main.f0ef7682.js",
     "static/js/2.00d56c90.chunk.js",
     "static/css/main.2e3a4904.chunk.css",
     "static/js/main.c271acc1.chunk.js"
