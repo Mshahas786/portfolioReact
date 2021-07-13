@@ -5,7 +5,6 @@ import Navbar from "../Components/Navbar/Navbar";
 import "./Pages.css";
 
 // import img from "../Images/05.jpg";
-import MuhammedShahas from "../Images/MuhammedShahascopy.png";
 import SocialIcons from "../Components/SocialIcons/SocialIcons";
 // import Works from "./Works";
 
@@ -22,15 +21,15 @@ const Home = () => {
             src={MuhammedShahas} alt="Muhammed shahas" />
         </div> */}
 
-        <div className="col-12 col-lg-11 d-flex flex-column justify-content-center">
+        <div className="col-12 col-lg-11 d-flex flex-column justify-content-center h-100">
           <motion.h1
             initial={{ x: -100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ delay: 0.3 }}
             className=" text-white"
-            style={{ fontFamily: "Pattaya", fontSize: "6vh" }}
+            style={{ fontSize:"4rem" }}
           >
-            Hello, I'm Muhammed
+            Hello,<br /> I'm Muhammed Shahas
             <br /> A Front-end Developer.
           </motion.h1>
         </div>

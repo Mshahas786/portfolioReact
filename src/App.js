@@ -11,7 +11,7 @@ function App() {
       style={{ backgroundColor: "black" }}> 
     <Router>
     {/* <h1 className="">Hello</h1> */}
-    <Navbar link="/About" name="Me" link1="/Works" name1="Project" />
+    <Navbar link="/About" name="Me" link1="/Works" name1="Works" />
     <Route path='/' exact component={Home} />
     <Route path='/Works' component={Works} />
     <Route path='/About' component={About} />

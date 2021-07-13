@@ -4,10 +4,15 @@ import { Link } from "react-router-dom";
 
 const Navbar = (props) => {
     return (
-        <div className="container d-flex justify-content-end">
+        <div className="container d-flex justify-content-between">
+        
+        <div className=""><Link to="./"><h3 className="text-white" > MS </h3></Link></div>
+       
+        <div className="d-flex">
+        <Link to="/About" ><h3 className="text-white  " > Me</h3></Link>
+        <Link to="/Works"><h3 className="text-white ml-5" > Works</h3></Link>
+        </div>
 
-        <Link to={props.link}><h3 className="text-white d-inline" style={{ fontFamily: 'Pattaya', fontSize: '3vh' }}> {props.name}</h3></Link>
-         <Link to={props.link1}><h3 className="text-white d-inline ml-5" style={{ fontFamily: 'Pattaya', fontSize: '3vh' }}> {props.name1}</h3></Link>
          </div>
     )
 }

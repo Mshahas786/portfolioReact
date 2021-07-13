@@ -8,13 +8,13 @@ const SocialIcons = () => {
   const [twitter, setTwitter] = useState(false);
 
   return (
-    <div className="SocialIcons d-flex flex-lg-column justify-content-center">
+    <div className="SocialIcons d-flex flex-lg-column justify-content-center ">
       <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1 }}
+         initial={{ opacity: 0, y: -90 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 2 }}
       >
-        <motion.div whileHover={{ scale: 1.4 }}>
+        <motion.div whileHover={{ scale: 1.2 }}>
           <SocialIcon
             // onMouseEnter={() => setGithub(!github)}
             // onMouseLeave={() => setGithub(!github)}
@@ -29,9 +29,9 @@ const SocialIcons = () => {
       <motion.div
         initial={{ opacity: 0, y: -90 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 2 }}
+        transition={{ delay: 1.5 }}
       >
-        <motion.div whileHover={{ scale: 1.4 }}>
+        <motion.div whileHover={{ scale: 1.2 }}>
           <SocialIcon
             onMouseEnter={() => setShow(!show)}
             onMouseLeave={() => setShow(!show)}
@@ -46,9 +46,9 @@ const SocialIcons = () => {
       <motion.div
         initial={{ opacity: 0, y: -110 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 1.5 }}
+        transition={{ delay: 1 }}
       >
-        <motion.div whileHover={{ scale: 1.4 }}>
+        <motion.div whileHover={{ scale: 1.2 }}>
           <SocialIcon
             onMouseEnter={() => setTwitter(!twitter)}
             onMouseLeave={() => setTwitter(!twitter)}
