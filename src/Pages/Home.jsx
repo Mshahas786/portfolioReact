@@ -1,12 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import Navbar from "../Components/Navbar/Navbar";
+// import Navbar from "../Components/Navbar/Navbar";
 import "./Pages.css";
 
-// import img from "../Images/05.jpg";
 import SocialIcons from "../Components/SocialIcons/SocialIcons";
-// import Works from "./Works";
 
 const Home = () => {
   return (

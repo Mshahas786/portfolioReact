@@ -1,20 +1,9 @@
-import React, { useState } from 'react'
-import { Link } from "react-router-dom";
+import React from 'react'
 import { motion } from "framer-motion";
-import WorkData from "../Data/WorkData";
-import styled from 'styled-components';
 
-const Works = () => {
 
-    const [items, setItems] = useState(WorkData);
+const ProjectItems = ({ items }) => {
 
-    const filterWorks = (categItem) => {
-        const updatedItems = WorkData.filter((curElem) => {
-            return curElem.category === categItem;
-        });
-
-        setItems(updatedItems);
-    }
 
     return (
         <motion.div
@@ -22,9 +11,6 @@ const Works = () => {
             animate={{ x: 0, scale: 1, opacity: 1 }}
             transition={{ delay: .1 }}
             className="container h-75 overflow-auto ">
-
-
-
 
             <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
 
@@ -35,7 +21,7 @@ const Works = () => {
 
 
                         return (
-                            <a href={website}>
+                            <a href={website} key={id} target={"_blank"}>
                                 <div
                                     className="col m-0 p-1 ">
 
@@ -50,8 +36,9 @@ const Works = () => {
             </div>
 
         </motion.div>
+    )
+}
 
-    );
-};
 
-export default Works;
+
+export default ProjectItems;
