@@ -27,7 +27,7 @@ const Home = () => {
             className=" text-white"
             style={{ fontSize:"4rem" }}
           >
-            Hello,<br /> I'm Muhammed Shahas
+            Hi,<br /> I'm Muhammed Shahas
             <br /> A Front-end Developer.
           </motion.h1>
         </div>
